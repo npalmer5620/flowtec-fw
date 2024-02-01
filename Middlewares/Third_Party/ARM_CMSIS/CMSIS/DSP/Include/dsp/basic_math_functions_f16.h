@@ -27,17 +27,16 @@
 #ifndef _BASIC_MATH_FUNCTIONS_F16_H_
 #define _BASIC_MATH_FUNCTIONS_F16_H_
 
-#ifdef   __cplusplus
-extern "C"
-{
-#endif
-
 #include "arm_math_types_f16.h"
 #include "arm_math_memory.h"
 
 #include "dsp/none.h"
 #include "dsp/utils.h"
 
+#ifdef   __cplusplus
+extern "C"
+{
+#endif
 
 #if defined(ARM_FLOAT16_SUPPORTED)
 
@@ -150,9 +149,7 @@ extern "C"
   @param[in]     low           lower bound
   @param[in]     high          higher bound
   @param[in]     numSamples    number of samples to clip
-  @return        none
  */
-
 void arm_clip_f16(const float16_t * pSrc, 
   float16_t * pDst, 
   float16_t low, 

@@ -1,0 +1,2 @@
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Source/FastMathFunctions/arm_vlog_q31.c:55:17:arm_scalar_log_q31	5
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Source/FastMathFunctions/arm_vlog_q31.c:214:6:arm_vlog_q31	2

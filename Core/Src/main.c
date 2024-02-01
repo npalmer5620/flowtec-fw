@@ -1,5 +1,10 @@
+// SDSU Team FlowTec 2024
+// Side note: What the heck is ARM/ST doing this was so difficult to configure: https://community.st.com/t5/stm32cubeide-mcus/stmcubeide-1-6-1-and-arm-cmsis-5-7-0-dsp/td-p/211938
 #include <arm_math.h>
 #include "main.h"
+
+#define ADC_BUF_LEN 4096
+#define ADC_FREQ 71
 
 // Peripherals
 ADC_HandleTypeDef hadc1;

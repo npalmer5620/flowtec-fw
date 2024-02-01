@@ -1,0 +1,3 @@
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c:105:6:arm_rfft_q31	2
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c:225:6:arm_split_rfft_q31	2
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c:378:6:arm_split_rifft_q31	2
